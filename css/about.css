@@ -1,0 +1,34 @@
+.about{
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+    margin-block-start: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+    margin-block-start: 14px;
+}
+
+.about-content{
+    max-inline-size: 900px;
+    font: var(--headline5);
+    font-weight: normal;
+    text-align: center;
+    gap: 24;
+}
+
+
+
+.about-content p:nth-child(2){
+    font: var(--headline5);
+}
+
+@media screen and (min-width: 768px){
+    .about{
+        padding-block-start: 100px;
+        padding-block-end: 100px;
+        margin-block-start: 100px;
+    }
+}

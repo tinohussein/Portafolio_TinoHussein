@@ -1,0 +1,67 @@
+.testimony{
+    border-radius: 24px;
+    padding-block-start: 24px;
+    padding-block-end: 24px;
+    padding-inline-end: 24px;
+    padding-inline-start: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 4px solid;
+    border-image-source: radial-gradient(83.14% 78.52% at -12.32% -18.69%, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%);
+
+
+
+    
+    ;
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 24px;
+}
+
+.testimony-image{
+    text-align: center;
+}
+
+.testimony-description{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font: var(--caption);
+}
+
+.testimony-description p:first-child{
+    font: var(--body-secondary);
+}
+
+.testimony-description p:nth-child(2){
+    opacity: .5;
+}
+
+.testimony-description p{
+    margin: 0;
+}
+
+@media screen and (min-width: 768px){
+    .testimony{
+        padding-block-start: 80px;
+        padding-block-end: 80px;
+        padding-inline-end: 80px;
+        padding-inline-start: 80px;
+    }
+
+    .testimony-description{
+        font: var(--headline5);
+        text-align: center;
+    }
+    
+    .testimony-description p:first-child{
+        font: var(--headline-secondary);
+    }
+
+    .testimony-description p:nth-child(2){
+        opacity: .5;
+    }
+}
+
